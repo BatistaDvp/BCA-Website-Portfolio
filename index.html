@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCA - Intelligent Websites & AI Automation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="#home" class="logo"><span>B</span>CA</a>
+            <ul id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#founder">Founder</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu" id="mobileMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles" id="particles"></div>
+        <div class="hero-content">
+            <h1>We turn ideas into <span class="highlight">intelligent websites</span> powered by Artificial Intelligence</h1>
+            <p>Website development and smart automation for modern businesses</p>
+            <a href="#contact" class="cta-button">Request a Quote</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about fade-in">
+        <h2 class="section-title">About BCA</h2>
+        <div class="about-content">
+            <p>At BCA, we combine design, technology, and automation to create intelligent digital solutions. Our focus is on optimizing processes and transforming ideas into real results — merging modern websites with smart, AI-driven automation flows.</p>
+            <p style="margin-top: 1.5rem;">We specialize in building websites and intelligent automations powered by Artificial Intelligence, using cutting-edge tools such as N8N, Make, Microsoft Copilot Studio, and other automation and integration platforms to deliver seamless digital experiences.</p>
+        </div>
+    </section>
+
+    <!-- Founder Section -->
+    <section id="founder" class="founder fade-in">
+        <h2 class="section-title">Meet the Founder</h2>
+        <div class="founder-container">
+            <div class="founder-image">
+                AB
+            </div>
+            <div class="founder-info">
+                <h3>Artur Batista Caixeta</h3>
+                <p class="education">Student at Florida National University<br>Bachelor's Degree in Information Technology</p>
+                <p>"I'm passionate about Artificial Intelligence and automation. From the moment I started working with these technologies, I discovered my purpose: connecting innovation, efficiency, and creativity through intelligent automation."</p>
+                <p>"I truly believe the future belongs to those who learn to integrate people and technology."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services fade-in">
+        <h2 class="section-title">Services & Pricing Plans</h2>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3 class="plan-name">Basic Plan</h3>
+                <p class="plan-description">Professional Websites</p>
+                <ul class="features">
+                    <li>Custom responsive website</li>
+                    <li>Modern and optimized design</li>
+                    <li>Mobile-friendly layout</li>
+                    <li>Fast loading speeds</li>
+                    <li>Ideal for small businesses and portfolios</li>
+                </ul>
+                <button class="plan-button" onclick="selectPlan('Basic Plan')">Choose this plan</button>
+            </div>
+
+            <div class="pricing-card featured">
+                <h3 class="plan-name">Intermediate Plan</h3>
+                <p class="plan-description">Websites + Simple Automations</p>
+                <ul class="features">
+                    <li>Everything in the Basic Plan</li>
+                    <li>Simple integrations included</li>
+                    <li>Automated contact forms</li>
+                    <li>Email automation setup</li>
+                    <li>Scheduling systems integration</li>
+                    <li>Perfect for businesses starting automation</li>
+                </ul>
+                <button class="plan-button" onclick="selectPlan('Intermediate Plan')">Choose this plan</button>
+            </div>
+
+            <div class="pricing-card">
+                <h3 class="plan-name">Advanced Plan</h3>
+                <p class="plan-description">Websites + Intelligent Automations</p>
+                <ul class="features">
+                    <li>Everything in previous plans</li>
+                    <li>Advanced automation flows</li>
+                    <li>N8N, Make, Microsoft Copilot Studio</li>
+                    <li>Custom API integrations</li>
+                    <li>AI-driven workflows</li>
+                    <li>Ideal for scaling operations through technology</li>
+                </ul>
+                <button class="plan-button" onclick="selectPlan('Advanced Plan')">Choose this plan</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials fade-in">
+        <h2 class="section-title">What Our Clients Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <p class="testimonial-text">BCA transformed our business with intelligent automation. The chatbot they built handles customer inquiries 24/7, freeing our team to focus on complex tasks. Response time improved by 60%!</p>
+                <p class="testimonial-author">Michael Rodriguez</p>
+                <p class="testimonial-company">Tech Solutions Inc.</p>
+            </div>
+
+            <div class="testimonial-card">
+                <p class="testimonial-text">The website and automation system BCA created exceeded our expectations. Integration with our CRM was seamless, and the AI-powered workflows have boosted our productivity significantly.</p>
+                <p class="testimonial-author">Sarah Johnson</p>
+                <p class="testimonial-company">Digital Marketing Agency</p>
+            </div>
+
+            <div class="testimonial-card">
+                <p class="testimonial-text">Working with Arthur was a game-changer. His expertise in N8N and Microsoft Copilot Studio helped us automate repetitive tasks, saving over 20 hours per week. Highly recommended!</p>
+                <p class="testimonial-author">David Chen</p>
+                <p class="testimonial-company">E-commerce Platform</p>
+            </div>
+
+            <div class="testimonial-card">
+                <p class="testimonial-text">BCA built us a stunning, responsive website paired with smart automations. Our lead generation increased by 45%, and customer satisfaction has never been higher. True professionals!</p>
+                <p class="testimonial-author">Emily Santos</p>
+                <p class="testimonial-company">Real Estate Group</p>
+            </div>
+
+            <div class="testimonial-card">
+                <p class="testimonial-text">The intelligent automation workflows created by BCA revolutionized our operations. From automated invoicing to customer follow-ups, everything runs smoothly. Best investment we made!</p>
+                <p class="testimonial-author">James Park</p>
+                <p class="testimonial-company">Consulting Firm</p>
+            </div>
+
+            <div class="testimonial-card">
+                <p class="testimonial-text">Arthur's attention to detail and technical expertise is impressive. The custom API integrations and AI-driven solutions he delivered have positioned us ahead of our competition.</p>
+                <p class="testimonial-author">Maria Garcia</p>
+                <p class="testimonial-company">Healthcare Services</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact fade-in">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="contact-container">
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="plan">Preferred Plan</label>
+                    <select id="plan" name="plan" required>
+                        <option value="">Select a plan</option>
+                        <option value="Basic Plan">Basic Plan - Professional Websites</option>
+                        <option value="Intermediate Plan">Intermediate Plan - Websites + Simple Automations</option>
+                        <option value="Advanced Plan">Advanced Plan - Websites + Intelligent Automations</option>
+                        <option value="Custom">Custom Solution</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/artur-caixeta/" target="_blank" title="LinkedIn">in</a>
+                <a href="https://www.instagram.com/arturbatista16/" target="_blank" title="Instagram">📷</a>
+                <a href="https://github.com/BatistaDvp" target="_blank" title="GitHub">💻</a>
+                <a href="https://wa.me/17868069616" target="_blank" title="WhatsApp">💬</a>
+            </div>
+
+            <p class="closing-message">"Let's build something intelligent together."</p>
+        </div>
+    </section>
+
+    <!-- AI Chatbot Widget -->
+    <div class="chatbot-widget">
+        <button class="chat-button" id="chatButton">🤖</button>
+        
+        <div class="chat-window" id="chatWindow">
+            <div class="chat-header">
+                <div>
+                    <h3>BCA AI Assistant</h3>
+                    <small style="opacity: 0.9;">Ask me anything!</small>
+                </div>
+                <button class="chat-close" id="chatClose">×</button>
+            </div>
+            
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot">
+                    <div class="bot-avatar">AI</div>
+                    <div>
+                        <div class="message-content">
+                            Hi! 👋 I'm BCA's AI Assistant. How can I help you today?
+                        </div>
+                        <div class="quick-options">
+                            <button class="quick-option" onclick="selectQuickOption('pricing')">View Pricing</button>
+                            <button class="quick-option" onclick="selectQuickOption('services')">Our Services</button>
+                            <button class="quick-option" onclick="selectQuickOption('contact')">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="message bot typing-indicator" id="typingIndicator">
+                <div class="bot-avatar">AI</div>
+                <div class="message-content">
+                    <div style="display: flex; gap: 0.3rem;">
+                        <div class="typing-dot"></div>
+                        <div class="typing-dot"></div>
+                        <div class="typing-dot"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="chat-input-area">
+                <input type="text" class="chat-input" id="chatInput" placeholder="Type your message...">
+                <button class="chat-send" id="chatSend">➤</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 BCA - Building intelligent digital solutions. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
